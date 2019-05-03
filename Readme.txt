@@ -1,5 +1,7 @@
 I will be attempting to create a login system with Node.JS, jade and MongoDB as database.
 
+The port for this login system is http://localhost:3000/
+
 Progress
 1. use mongoDB
 2. set up mongoDB
@@ -10,7 +12,7 @@ Progress
 8. encrpyt password by using bcryptjs
 9. finally using passport authentication for login
 10. when first go in the website, does not show welcome page instead redirect to the login page
-11. logout
+11. logout button, welcome user name.
 
 Problem face
 1. Bootstrap.css not loading?? need to redo from scratch
