@@ -38,6 +38,10 @@ app.use(session({
   resave: true
 }));
 
+app.get('/login', function(req, res) {
+  res.render('index.jade', { username: req.user.username });
+});
+
 // Passport
 app.use(passport.initialize());
 app.use(passport.session());

@@ -1,0 +1,19 @@
+ul.success li{
+	padding: 20px;
+  margin-bottom:25px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+ul.error li{
+	padding: 20px;
+	margin-bottom: 25px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+
+ul.username li{
+	padding: 20px;
+	font-size: 50px;
+
+}
